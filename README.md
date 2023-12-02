@@ -20,7 +20,7 @@ mv ~/.cache/nvim{,.bak}
 ```
 - Clone this neovim config:
 ```shell
-git clone https://github.com/LazyVim/starter ~/.config/nvim
+git clone https://github.com/ZayRTun/Lazyvim-for-Laravel.git ~/.config/nvim
 ```
 
 - Remove the .git folder, so you can add it to your own repo later:
