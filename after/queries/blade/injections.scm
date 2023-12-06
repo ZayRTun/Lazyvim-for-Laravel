@@ -10,7 +10,7 @@
     (#set! injection.language zsh))
 
 ;Available for experimental split_parser see issue #5 
-;((php_only) @injection.content
-;    (#set! injection.language php_only))
-;((parameter) @injection.content
-;    (#set! injection.language php_only))
+((php_only) @injection.content
+   (#set! injection.language php_only))
+((parameter) @injection.content
+   (#set! injection.language php_only))

@@ -25,11 +25,5 @@ return {
             },
             filetype = "blade",
         }
-
-        vim.filetype.add({
-            pattern = {
-                [".*%.blade%.php"] = "blade",
-            },
-        })
     end,
 }

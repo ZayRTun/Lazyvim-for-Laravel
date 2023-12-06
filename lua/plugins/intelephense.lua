@@ -1,10 +1,10 @@
 return {
-  {
-    "neovim/nvim-lspconfig",
-    opts = {
-      servers = {
-        intelephense = {},
-      },
+    {
+        "neovim/nvim-lspconfig",
+        opts = {
+            servers = {
+                intelephense = {},
+            },
+        },
     },
-  },
 }
