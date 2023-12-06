@@ -1,5 +1,20 @@
 return {
-    -- add gruvbox
+    {
+        "rebelot/kanagawa.nvim",
+        priority = 1000,
+        opts = {
+            colors = {
+                theme = {
+                    all = {
+                        ui = {
+                            bg = "#16161D",
+                            bg_gutter = "none",
+                        },
+                    },
+                },
+            },
+        },
+    },
     {
         "ellisonleao/gruvbox.nvim",
         opts = {
@@ -10,11 +25,6 @@ return {
     {
         "tokyonight.nvim",
         priority = 1000,
-        -- opts = function()
-        --     return {
-        --         style = "night",
-        --     }
-        -- end,
         opts = function()
             return {
                 style = "night",
@@ -77,13 +87,17 @@ return {
                 which_key = true,
             },
         },
+        {
+            "projekt0n/github-nvim-theme",
+            lazy = false,
+            priority = 1000,
+        },
     },
 
-    -- Configure LazyVim to load gruvbox
     {
         "LazyVim/LazyVim",
         opts = {
-            colorscheme = "gruvbox",
+            colorscheme = "github_dark_default", -- Change this to another theme
         },
     },
 }

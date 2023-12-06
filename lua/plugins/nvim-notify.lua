@@ -1,9 +1,8 @@
 return {
-  {
-    "rcarriga/nvim-notify",
-    opts = {
-      render = "minimal",
-      background_colour = "#282828",
+    {
+        "rcarriga/nvim-notify",
+        opts = {
+            background_colour = "#0E1116",
+        },
     },
-  },
 }
