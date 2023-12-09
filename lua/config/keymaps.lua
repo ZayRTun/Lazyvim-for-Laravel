@@ -10,6 +10,11 @@ vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
+local Util = require("lazyvim.util")
+vim.keymap.set("n", "<C-/>", function()
+    Util.terminal(nil, { border = "rounded" })
+end, { desc = "Term with border" })
+
 -- vim.keymap.set("n", "<leader>fd", "<cmd>FlutterDevices<cr>")
 -- -- c = { "<cmd>Telescope flutter commands<cr>", "Open Flutter Commans" },
 -- -- d = { "<cmd>FlutterDevices<cr>", "Flutter Devices" },

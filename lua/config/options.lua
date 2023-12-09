@@ -12,9 +12,3 @@ vim.opt.scrolloff = 8
 vim.opt.cursorline = false
 
 vim.opt.smarttab = true
-
-vim.filetype.add({
-    pattern = {
-        [".*%.blade%.php"] = "blade",
-    },
-})
